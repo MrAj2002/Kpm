@@ -3,7 +3,20 @@
   "name": "CineJoy",
   "url": "https://cinejoy.pk/",
   "language": "en",
-  "revision": 1,
+  "revision": 2,
   "adult": false,
-  "rules": {}
+  "rules": {
+    "catalogPath": "/movies",
+    "latestPath": "/category/movie/trending",
+    "searchPath": "/search?query={query}",
+    "itemSelector": "a[href^=\"/movie/\"], a[href^=\"/series/\"]",
+    "titleSelector": "img",
+    "posterSelector": "img",
+    "posterAttribute": "src",
+    "detailTitleSelector": "h1",
+    "descriptionSelector": "p",
+    "episodeSelector": "",
+    "scanScriptUrls": true,
+    "maxIframeDepth": 3
+  }
 }
