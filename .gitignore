@@ -1,0 +1,8 @@
+.cache/
+build/
+repo-output/
+signing/
+*.p12
+*.jks
+*.keystore
+__pycache__/
